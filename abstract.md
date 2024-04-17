@@ -32,12 +32,12 @@ updated to reuse the RforMassSpectrometry infrastructure, enabling now also the
 analysis of very large, or remote, data. This integration simplifies in addition
 complete analysis workflows which can include functionality from the
 *MsFeatures* package for compounding, and from the *MetaboAnnotation* package
-for annotation of untargeted metabolomics experiments. Public annotation
-resources can be easily accessed through packages such as *MsBackendMassbank*,
-*MsBackendMsp* or *CompoundDb*, the latter also allowing to create and manage
-lab-specific compound databases. Finally, the *MsCoreUtils* and
-*MetaboCoreUtils* packages provide efficient implementations of commonly used
-algorithms, designed to be re-used in other R packages. Ultimately, and in
+facilitating annotation of untargeted metabolomics experiments. Public
+annotation resources can be easily accessed through packages such as
+*MsBackendMassbank*, *MsBackendMsp* or *CompoundDb*, the latter also allowing to
+create and manage lab-specific compound databases. Finally, the *MsCoreUtils*
+and *MetaboCoreUtils* packages provide efficient implementations of commonly
+used algorithms, designed to be re-used in other R packages. Ultimately, and in
 contrast to a monolithic software design, the package ecosystem enables to build
 customized, modular, and reproducible analysis workflows.
 
